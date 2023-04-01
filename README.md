@@ -15,3 +15,13 @@ domains=$(echo "$urls" | grep -Eo "(http|https)://[^/]+/" | sort -u)
 # Output the result
 echo "$domains"
 ```
+## save the file as `domain-extactor.sh` and paste code inside of it
+
+```bash
+./domain-extractor.sh file.json
+```
+or
+
+```bash
+bash domain-extractor.sh
+```
