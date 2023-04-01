@@ -18,10 +18,10 @@ echo "$domains"
 ## save the file as `domain-extactor.sh` and paste code inside of it
 
 ```bash
-./domain-extractor.sh file.json
+./domain-extractor.sh
 ```
 or
 
 ```bash
-bash domain-extractor.sh
+bash domain-extractor.sh 
 ```
